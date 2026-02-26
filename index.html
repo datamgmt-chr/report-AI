@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indice Report</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  max-width: 1000px;
+  margin: 40px auto;
+  line-height: 1.6;
+  padding: 0 16px;
+}
+
+h1 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background-color: #f3f3f3;
+}
+
+.tag {
+  display: inline-block;
+  background: #eef3ff;
+  border: 1px solid #ccd6ff;
+  border-radius: 12px;
+  padding: 2px 8px;
+  margin: 2px;
+  font-size: 12px;
+}
+
+a {
+  color: #0366d6;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+</style>
+</head>
+
+<body>
+
+<h1>📊 Indice Report</h1>
+
+<table>
+<thead>
+<tr>
+<th>Titolo</th>
+<th>Contenuti</th>
+<th>Tema</th>
+<th>Tag</th>
+<th>Link</th>
+</tr>
+</thead>
+
+<tbody id="reportTable">
+<tr><td colspan="5">Caricamento...</td></tr>
+</tbody>
+</table>
+
+<script>
+async function loadReports() {
+  const table = document.getElementById("reportTable");
+
+  try {
+    const response = await fetch("reports.json", { cache: "no-store" });
+    const reports = await response.json();
+
+    table.innerHTML = reports.map(r => `
+      <tr>
+        <td><strong>${r.titolo}</strong></td>
+        <td>${r.contenuti}</td>
+        <td>${r.tema}</td>
+        <td>${r.tag.map(t => `<span class="tag">${t}</span>`).join("")}</td>
+        <td><a href="${r.link}" target="_blank">Apri</a></td>
+      </tr>
+    `).join("");
+
+  } catch (err) {
+    table.innerHTML =
+      `<tr><td colspan="5">Errore caricamento dati</td></tr>`;
+  }
+}
+
+loadReports();
+</script>
+
+</body>
+</html>
