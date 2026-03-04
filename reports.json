@@ -135,6 +135,24 @@
     "link": "agenti-ai-ecosistema-prebuilt.html"
   },
   {
+    "titolo": "Agenti Pronti vs Costruzione Custom",
+    "contenuti": "Vantaggi concreti delle 5 categorie di agenti precostruiti confrontati con i diversi livelli di costruzione autonoma.\nFramework decisionale per scegliere l'approccio giusto.",
+    "tema": "Agenti ready",
+    "tag": [
+      "6. Agenti \"pronti all'uso\""
+    ],
+    "link": "agenti-ai-build-vs-buy.html"
+  },
+  {
+    "titolo": "I 12 Step di Sviluppo: cosa risparmia ogni categoria",
+    "contenuti": "Per ciascuno dei 12 step necessari a costruire un agente AI, l'impatto concreto delle 5 categorie di agenti precostruiti:\ncosa viene eliminato, cosa viene accelerato, cosa resta invariato — e perché",
+    "tema": "Agenti ready",
+    "tag": [
+      "6. Agenti \"pronti all'uso\""
+    ],
+    "link": "agenti-ai-12step-vs-categorie.html"
+  },
+  {
     "titolo": "Da zero a produzione per ogni famiglia di stack",
     "contenuti": "Le roadmap generali declinate in step concreti, strumenti specifici, comandi reali e trappole da evitare per ciascuno stack tecnologico",
     "tema": "Sviluppo di un agente",
