@@ -4,7 +4,7 @@
     "contenuti": "- Cos'è l'AI\n- Famiglie di AI: ML classico, Deep Learning, AI generativa, Sistemi simbolici",
     "tema": "Introduzione ad AI",
     "tag": [
-      "1. Introduzione ad AI e LLM"
+      "1. Introduzione ad AI"
     ],
     "link": "ai-panorama-manager.html"
   },
@@ -13,7 +13,7 @@
     "contenuti": "Simbolico, ML classico, Deep Learning, LLM: meccanica interna, come elaborano le informazioni",
     "tema": "Introduzione ad AI",
     "tag": [
-      "1. Introduzione ad AI e LLM"
+      "1. Introduzione ad AI"
     ],
     "link": "ai-quattro-famiglie.html"
   },
@@ -22,7 +22,7 @@
     "contenuti": "Simbolico, ML classico, Deep Learning, LLM: Meccanica interna, architettura e modello relazionale a confronto",
     "tema": "Introduzione ad AI",
     "tag": [
-      "1. Introduzione ad AI e LLM"
+      "1. Introduzione ad AI"
     ],
     "link": "quattro-famiglie-report.html"
   },
@@ -31,7 +31,7 @@
     "contenuti": "la tecnologia o le tecnologie abilitanti, come funzionano, e quale salto qualitativo hanno reso possibile",
     "tema": "Introduzione ad AI",
     "tag": [
-      "1. Introduzione ad AI e LLM"
+      "1. Introduzione ad AI"
     ],
     "link": "tecnologie-fondamentali-ai.html"
   },
@@ -63,6 +63,15 @@
     "link": "llm-ragionamento-report.html"
   },
   {
+    "titolo": "Le tecnologie fondamentali degli LLM",
+    "contenuti": "Embedding, Transformer & Self-attention, generazione autoregressiva, Pre-training, Fine-tuning, RLHF, RAG, Tool Use",
+    "tema": "Approfondimento LLM",
+    "tag": [
+      "2. AI Generativa e LLM"
+    ],
+    "link": "llm-tecnologie-fondamentali.html"
+  },
+  {
     "titolo": "Agenti AI - Guida Essenziale",
     "contenuti": "- cosa sono e differenze con altri LLM tool\n- panoramica tool LLM (chatbot, agenti, etc.)\n- tassonomia agenti AI",
     "tema": "Agenti AI",
@@ -81,38 +90,74 @@
     "link": "agenti-ai-stack-tecnologici.html"
   },
   {
-    "titolo": "Come si combinano gli stack nella realtà",
-    "contenuti": "3 modi di combinare:\n- Combinazione temporale\n- Combinazione per livello architetturale\n- Combinazione per tipo di utente",
-    "tema": "Stack tecnologici",
-    "tag": [
-      "5. Approfondimento stack tecnologici"
-    ],
-    "link": "agenti-ai-combinare-stack.html"
-  },
-  {
     "titolo": "Le 5 famiglie di stack a confronto",
     "contenuti": "Approfondimento comparativo stack:\n- decisioni da prendere\n- quando usare / non usare\n- tabella comparativa",
     "tema": "Stack tecnologici",
     "tag": [
-      "5. Approfondimento stack tecnologici"
+      "4. Sviluppo di agenti AI"
     ],
     "link": "agenti-ai-confronto-stack.html"
+  },
+  {
+    "titolo": "Come si combinano gli stack nella realtà",
+    "contenuti": "3 modi di combinare:\n- Combinazione temporale\n- Combinazione per livello architetturale\n- Combinazione per tipo di utente",
+    "tema": "Stack tecnologici",
+    "tag": [
+      "4. Sviluppo di agenti AI"
+    ],
+    "link": "agenti-ai-combinare-stack.html"
   },
   {
     "titolo": "Quali decisioni prendi tu per ogni stack?",
     "contenuti": "Quali decisioni prendi tu per ogni stack?",
     "tema": "Stack tecnologici",
     "tag": [
-      "5. Approfondimento stack tecnologici"
+      "4. Sviluppo di agenti AI"
     ],
     "link": "agenti-ai-matrice-decisioni.html"
+  },
+  {
+    "titolo": "Architettura di Riferimento di un Agente AI",
+    "contenuti": "I 9 componenti fondamentali di ogni agente, le loro relazioni, le decisioni e le sfide che ciascuno presenta. La base per capire cosa cambia tra le diverse alternative di costruzione.",
+    "tema": "Architettura agente",
+    "tag": [
+      "4. Sviluppo di agenti AI"
+    ],
+    "link": "agenti-ai-architettura-riferimento.html"
+  },
+  {
+    "titolo": "La stessa architettura, cinque modi di costruirla",
+    "contenuti": "I 9 componenti dell'architettura di riferimento declinati sulle 5 alternative di costruzione. Per ciascuna: chi fornisce cosa, cosa personalizzi, cosa non puoi toccare — e perché.",
+    "tema": "Architettura agente",
+    "tag": [
+      "4. Sviluppo di agenti AI"
+    ],
+    "link": "agenti-ai-architettura-5-alternative.html"
+  },
+  {
+    "titolo": "Come si costruisce un agente",
+    "contenuti": "Una roadmap in 6 fasi con le decisioni critiche in ogni step",
+    "tema": "Roadmap sviluppo",
+    "tag": [
+      "4. Sviluppo di agenti AI"
+    ],
+    "link": "agenti-ai-roadmap-sviluppo.html"
+  },
+  {
+    "titolo": "Da zero a produzione per ogni famiglia di stack",
+    "contenuti": "Le roadmap generali declinate in step concreti, strumenti specifici, comandi reali e trappole da evitare per ciascuno stack tecnologico",
+    "tema": "Roadmap sviluppo",
+    "tag": [
+      "4. Sviluppo di agenti AI"
+    ],
+    "link": "agenti-ai-roadmap-stack.html"
   },
   {
     "titolo": "Single Agent vs Multi-Agent",
     "contenuti": "- Quando specializzare, quando orchestrare\n- Domini di competenza\n- Pattern architetturali multi-agent",
     "tema": "Multi-agent",
     "tag": [
-      "5. Approfondimento stack tecnologici"
+      "4. Sviluppo di agenti AI"
     ],
     "link": "agenti-ai-single-vs-multi.html"
   },
@@ -121,7 +166,7 @@
     "contenuti": "Particolarità, casi d'uso, vantaggi, limiti, personalizzazione, setup necessario e integrazione in sistemi multi-agente — per ogni categoria",
     "tema": "Agenti ready",
     "tag": [
-      "6. Agenti \"pronti all'uso\""
+      "5. Agenti \"pronti all'uso\""
     ],
     "link": "agenti-ai-5-categorie.html"
   },
@@ -130,135 +175,152 @@
     "contenuti": "- 5 categorie di attori con esempi\n- 3 livelli di 'pronto'\n- 3 modi di interfacciarsi\n- 5 livelli di adattamento",
     "tema": "Agenti ready",
     "tag": [
-      "6. Agenti \"pronti all'uso\""
+      "5. Agenti \"pronti all'uso\""
     ],
     "link": "agenti-ai-ecosistema-prebuilt.html"
   },
   {
     "titolo": "Agenti Pronti vs Costruzione Custom",
-    "contenuti": "Vantaggi concreti delle 5 categorie di agenti precostruiti confrontati con i diversi livelli di costruzione autonoma.\nFramework decisionale per scegliere l'approccio giusto.",
+    "contenuti": "Vantaggi concreti delle 5 categorie di agenti precostruiti confrontati con i diversi livelli di costruzione autonoma. Framework decisionale per scegliere l'approccio giusto.",
     "tema": "Agenti ready",
     "tag": [
-      "6. Agenti \"pronti all'uso\""
+      "5. Agenti \"pronti all'uso\""
     ],
     "link": "agenti-ai-build-vs-buy.html"
   },
   {
     "titolo": "I 12 Step di Sviluppo: cosa risparmia ogni categoria",
-    "contenuti": "Per ciascuno dei 12 step necessari a costruire un agente AI, l'impatto concreto delle 5 categorie di agenti precostruiti:\ncosa viene eliminato, cosa viene accelerato, cosa resta invariato — e perché",
+    "contenuti": "Per ciascuno dei 12 step necessari a costruire un agente AI, l'impatto concreto delle 5 categorie di agenti precostruiti: cosa viene eliminato, cosa viene accelerato, cosa resta invariato — e perché",
     "tema": "Agenti ready",
     "tag": [
-      "6. Agenti \"pronti all'uso\""
+      "5. Agenti \"pronti all'uso\""
     ],
     "link": "agenti-ai-12step-vs-categorie.html"
   },
   {
-    "titolo": "Da zero a produzione per ogni famiglia di stack",
-    "contenuti": "Le roadmap generali declinate in step concreti, strumenti specifici, comandi reali e trappole da evitare per ciascuno stack tecnologico",
-    "tema": "Sviluppo di un agente",
+    "titolo": "Il mio caso d'uso è \"comune\"? Mappa e guida alla ricerca",
+    "contenuti": "Panoramica dei casi d'uso coperti da soluzioni precostruite, organizzata per funzione aziendale. Con checklist decisionale e guida pratica su dove e come cercare soluzioni già pronte.",
+    "tema": "Agenti ready",
     "tag": [
-      "7. Roadmap tipica per lo sviluppo di agenti AI"
+      "5. Agenti \"pronti all'uso\""
     ],
-    "link": "agenti-ai-roadmap-stack.html"
+    "link": "agenti-ai-mappa-casi-uso.html"
   },
   {
-    "titolo": "Come si costruisce un agente",
-    "contenuti": "Una roadmap in 6 fasi con le decisioni critiche in ogni step",
-    "tema": "Sviluppo di un agente",
+    "titolo": "Strumenti di Eval & Osservabilità",
+    "contenuti": "Quattro categorie di strumenti per valutare, monitorare e confrontare modelli LLM:\n- piattaforme eval&testing\n- Leaderboard & Benchmark\n- Observability & Tracking\n- Framework eval custom",
+    "tema": "Valutazione di un modello",
     "tag": [
-      "7. Roadmap tipica per lo sviluppo di agenti AI"
+      "6. Valutazione e Specializzazione"
     ],
-    "link": "agenti-ai-roadmap-sviluppo.html"
+    "link": "agenti-ai-eval-tools.html"
   },
   {
     "titolo": "Valutare le performance di un modello LLM",
     "contenuti": "- cosa vuol dire valutare\n- le 4 dimensioni\n- metriche operative\n- le categorie di tool per la valutazione\n- come si usano insieme",
-    "tema": "Selezione e valutazione modello LLM",
+    "tema": "Valutazione di un modello",
     "tag": [
-      "8. I modelli LLM e le relative specializzazioni"
+      "6. Valutazione e Specializzazione"
     ],
     "link": "agenti-ai-eval-fondamenti.html"
   },
   {
+    "titolo": "Cosa significa valutare un modello",
+    "contenuti": "- cosa vuol dire valutare\n- le 4 dimensioni\n- i parametri di valutazione\n- le categorie di tool per la valutazione",
+    "tema": "Valutazione di un modello",
+    "tag": [
+      "6. Valutazione e Specializzazione"
+    ],
+    "link": "agenti-ai-valutazione-fondamenti.html"
+  },
+  {
     "titolo": "Scegliere e configurare il modello giusto",
     "contenuti": "- come scegliere il modello per task specifici\n- panoramica dei modelli principali\n- come misurarne le performance\n- come configurare i parametri\n- come ottimizzare i costi",
-    "tema": "Selezione e valutazione modello LLM",
+    "tema": "Valutazione di un modello",
     "tag": [
-      "8. I modelli LLM e le relative specializzazioni"
+      "6. Valutazione e Specializzazione"
     ],
     "link": "agenti-ai-llm-selection.html"
+  },
+  {
+    "titolo": "Guida ai benchmark per la selezione degli LLM",
+    "contenuti": "cosa misurano, come interpretarli, e quali guardare per scegliere il modello giusto per ogni tipo di compito",
+    "tema": "Valutazione di un modello",
+    "tag": [
+      "6. Valutazione e Specializzazione"
+    ],
+    "link": "llm-benchmark-report.html"
+  },
+  {
+    "titolo": "Come specializzare un agente AI",
+    "contenuti": "Le 7 leve per rendere un agente bravo nel suo task specifico: cosa sono, come funzionano, quanto impattano, in quale ordine usarle — e come si declinano sulle 5 alternative di costruzione.",
+    "tema": "Come si specializza un agente",
+    "tag": [
+      "6. Valutazione e Specializzazione"
+    ],
+    "link": "agenti-ai-7-leve-specializzazione.html"
+  },
+  {
+    "titolo": "Le 7 classi di task: come cambia il peso delle leve",
+    "contenuti": "Il peso delle leve di specializzazione non è universale: dipende dal tipo di task. Sette classi di task omogenee, il profilo delle leve per ciascuna, e come leggere i casi reali come combinazioni di profili elementari.",
+    "tema": "Come si specializza un agente",
+    "tag": [
+      "6. Valutazione e Specializzazione"
+    ],
+    "link": "agenti-ai-7-classi-task.html"
+  },
+  {
+    "titolo": "Il percorso di specializzazione: guida operativa",
+    "contenuti": "L'agente funziona ma non è abbastanza bravo. Ecco il processo sistematico: definisci cosa significa \"bravo\", diagnostica dove fallisce, intervieni sulla leva giusta, misura, itera.",
+    "tema": "Come si specializza un agente",
+    "tag": [
+      "6. Valutazione e Specializzazione"
+    ],
+    "link": "agenti-ai-percorso-specializzazione.html"
   },
   {
     "titolo": "Dove l'AI funziona davvero e dove ancora non ci siamo",
     "contenuti": "- Punti di forza e punti deboli\n- Zone grigie\n- Matrice per settore",
     "tema": "Competenze LLM",
     "tag": [
-      "8. I modelli LLM e le relative specializzazioni"
+      "7. I modelli LLM e le relative specializzazioni"
     ],
     "link": "agenti-ai-mappa-capacita.html"
-  },
-  {
-    "titolo": "Tassonomia dei modelli LLM",
-    "contenuti": "",
-    "tema": "",
-    "tag": [
-      "8. I modelli LLM e le relative specializzazioni"
-    ],
-    "link": "agenti-ai-tassonomia-llm.html"
-  },
-  {
-    "titolo": "Cosa significa valutare un modello",
-    "contenuti": "- cosa vuol dire valutare\n- le 4 dimensioni\n- i parametri di valutazione\n- le categorie di tool per la valutazione",
-    "tema": "Selezione e valutazione modello LLM",
-    "tag": [
-      "8. I modelli LLM e le relative specializzazioni"
-    ],
-    "link": "agenti-ai-valutazione-fondamenti.html"
-  },
-  {
-    "titolo": "Le quattro fasce di accesso agli LLM",
-    "contenuti": "Proprietari, open weights, self-hosted, truly open source",
-    "tema": "Approfondimento LLM",
-    "tag": [
-      "8. I modelli LLM e le relative specializzazioni"
-    ],
-    "link": "ai-llm-fasce-accesso.html"
   },
   {
     "titolo": "Mappa dei Modelli LLM",
     "contenuti": "- Perché si specializzano\n- Profili dei modelli\n- Matrice Task x Modello\n- Come scegliere\n- Valutare un modello",
     "tema": "Competenze LLM",
     "tag": [
-      "8. I modelli LLM e le relative specializzazioni"
+      "7. I modelli LLM e le relative specializzazioni"
     ],
     "link": "ai-llm-mappa-modelli.html"
   },
   {
-    "titolo": "Strumenti di Eval & Osservabilità",
-    "contenuti": "Quattro categorie di strumenti per valutare, monitorare e confrontare modelli LLM:\n- piattaforme eval&testing\n- Leaderboard & Benchmark\n- Observability & Tracking\n- Framework eval custom",
-    "tema": "Selezione e valutazione modello LLM",
-    "tag": [],
-    "link": "agenti-ai-eval-tools.html"
+    "titolo": "Tassonomia dei modelli LLM",
+    "contenuti": "",
+    "tema": "",
+    "tag": [
+      "7. I modelli LLM e le relative specializzazioni"
+    ],
+    "link": "agenti-ai-tassonomia-llm.html"
+  },
+  {
+    "titolo": "Le quattro fasce di accesso agli LLM",
+    "contenuti": "Proprietari, open weights, self-hosted, truly open source",
+    "tema": "",
+    "tag": [
+      "7. I modelli LLM e le relative specializzazioni"
+    ],
+    "link": "ai-llm-fasce-accesso.html"
   },
   {
     "titolo": "MCP nella pratica",
     "contenuti": "",
     "tema": "MCP",
-    "tag": [],
+    "tag": [
+      "8. Altro"
+    ],
     "link": "agenti-ai-mcp-pratico.html"
-  },
-  {
-    "titolo": "Guida ai benchmark per la selezione degli LLM",
-    "contenuti": "cosa misurano, come interpretarli, e quali guardare per scegliere il modello giusto per ogni tipo di compito",
-    "tema": "Selezione e valutazione modello LLM",
-    "tag": [],
-    "link": "llm-benchmark-report.html"
-  },
-  {
-    "titolo": "Le tecnologie fondamentali degli LLM",
-    "contenuti": "Embedding, Transformer & Self-attention, generazione autoregressiva, Pre-training, Fine-tuning, RLHF, RAG, Tool Use",
-    "tema": "Approfondimento LLM",
-    "tag": [],
-    "link": "llm-tecnologie-fondamentali.html"
   }
 ]
