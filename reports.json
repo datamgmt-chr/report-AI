@@ -315,11 +315,20 @@
     "link": "ai-llm-fasce-accesso.html"
   },
   {
+    "titolo": "A cosa può connettersi un agente AI",
+    "contenuti": "Il panorama completo degli strumenti: 7 categorie di capacità, cosa è possibile oggi, i limiti reali",
+    "tema": "Strumenti",
+    "tag": [
+      "8. Strumenti"
+    ],
+    "link": "agenti-ai-panorama-strumenti.html"
+  },
+  {
     "titolo": "MCP nella pratica",
     "contenuti": "",
     "tema": "MCP",
     "tag": [
-      "8. Altro"
+      "8. Strumenti"
     ],
     "link": "agenti-ai-mcp-pratico.html"
   }
