@@ -331,5 +331,14 @@
       "8. Strumenti"
     ],
     "link": "agenti-ai-mcp-pratico.html"
+  },
+  {
+    "titolo": "L'agente che impara: self-learning e human-in-the-loop",
+    "contenuti": "Un LLM non impara durante l'uso. Ma un agente può migliorare nel tempo grazie a un'architettura progettata per catturare il feedback umano e trasformarlo in miglioramento. Le 6 strategie, dal più semplice al più sofisticato.",
+    "tema": "Self-learning",
+    "tag": [
+      "9. Altro"
+    ],
+    "link": "agenti-ai-self-learning-hitl.html"
   }
 ]
